@@ -15,13 +15,13 @@
   --text-color: #303030;
   --link-color: rgb(35, 82, 124);
   --link-hover-color: Invalid input color;
+
   --background-color: #ffffff;
+  --background-color-light: #cccccc;
+  --background-color-dark: #170bc8;
   --overlay-background-color: #eeeeee;
   --highlight-background-color: #cccccc;
   --link-color: #000514;
---background-color: #ffffff;
---overlay-background-color: #eeeeee;
---highlight-background-color: #cccccc;
 
   /* fonts */
   --heading-font-family: Figtree, Arial, Helvetica;

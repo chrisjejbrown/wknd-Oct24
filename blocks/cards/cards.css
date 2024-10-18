@@ -38,6 +38,12 @@
 .cards.light a.button:any-link {
   background-color: var(--highlight-background-color)
 }
+.cards.dark > ul > li {
+  background-color: var(--background-color-dark)
+}
+.cards.dark a.button:any-link {
+  background-color: var(--lowlight-background-color)
+}
 .cards.across > ul {
   display: block;
 } 
