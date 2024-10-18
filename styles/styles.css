@@ -13,12 +13,13 @@
 :root {
   /* colors */
   --text-color: #303030;
+  --text-color-light: #ffffff;
   --link-color: rgb(35, 82, 124);
   --link-hover-color: Invalid input color;
 
   --background-color: #ffffff;
   --background-color-light: #cccccc;
-  --background-color-dark: #170bc8;
+  --background-color-dark: #33314e;
   --overlay-background-color: #eeeeee;
   --highlight-background-color: #cccccc;
   --link-color: #000514;
