@@ -744,5 +744,5 @@ export {
   toClassName,
   waitForFirstImage,
   wrapTextNodes,
-  updateSectionsStatus
+
 };
