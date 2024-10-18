@@ -1,0 +1,63 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.offer .image {
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  flex: 2;
+}
+
+.offer .image picture {
+  width: 100%;
+  height: 100%;
+}
+
+.offer .image img {
+  margin-top: 0;
+  margin-bottom: 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.offer .text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ebebeb;
+  padding: 3.5em 2em 2em;
+}
+
+.offer .text p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.75;
+}
+
+.offer .text p.pretitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.75;
+}
+
+@media (min-width: 900px) {
+  .offer {
+    flex-direction: row-reverse;
+  }
+
+  .offer image img {
+    border-radius: 0 4% 4% 0;
+  }
+
+  .offer .text {
+    border-radius: 4% 0 0 4%;
+  }
+}
