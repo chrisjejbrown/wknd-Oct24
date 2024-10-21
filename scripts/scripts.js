@@ -11,7 +11,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
-} from './aem.old.js/index.js';
+} from './aem.js/index.js';
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
