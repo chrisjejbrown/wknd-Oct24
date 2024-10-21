@@ -232,9 +232,9 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections ul {
-    display: flex;
+    display: inline-flex;
     gap: 2em;
-    margin: 0;
+    margin: 0 20px 0 20px;
     font-size: var(--body-font-size-xs);
   }
 
