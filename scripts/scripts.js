@@ -8,9 +8,10 @@ import {
   decorateBlocks,
   decorateTemplateAndTheme,
   waitForFirstImage,
+  loadSection,
   loadSections,
   loadCSS,
-} from './aem.js';
+} from './aem.js.old';
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
